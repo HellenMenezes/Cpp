@@ -28,5 +28,4 @@ int main()
     cout << "DIAGONAL = " << diagonal << endl;
 
     return 0;
-
 }
