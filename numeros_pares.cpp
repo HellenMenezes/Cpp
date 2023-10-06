@@ -9,7 +9,7 @@ int main()
     cout << "Quantos numeros voce vai digitar? ";
     cin >> n;
 
-    vector<int> vet(n);
+    int vet[n];
 
     for(int i = 0; i < n; i++)
     {
