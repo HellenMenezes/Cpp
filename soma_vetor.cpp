@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <iomanip>
 
 using namespace std;
@@ -18,7 +17,7 @@ int main()
         cin >> n;
     }
 
-    vector<double> vet(n);
+    double vet[n];
 
     for(i = 0; i < n; i++)
     {
