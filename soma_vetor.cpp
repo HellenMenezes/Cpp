@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n, i;
+    int n;
     double soma = 0, media;
 
     cout << "Quantos numeros voce vai digitar? ";
@@ -19,7 +19,7 @@ int main()
 
     double vet[n];
 
-    for(i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         cout << "Digite um numero: ";
         cin >> vet[i];
@@ -28,12 +28,12 @@ int main()
     cout << fixed << setprecision(1);
     cout << endl << "VALORES: ";
 
-    for(i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         cout << vet[i] << "  ";
     }
 
-    for(i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         soma = soma + vet[i];
     }
