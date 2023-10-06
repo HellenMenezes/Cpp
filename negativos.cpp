@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -10,7 +9,7 @@ int main()
     cout << "Quantos numeros voce vai digitar? ";
     cin >> n;
 
-    vector<int> vet(n);
+    int vet[n];
 
     for(i = 0; i < n; i++)
     {
