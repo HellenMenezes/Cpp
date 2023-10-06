@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-    int n, i;
+    int n;
 
     cout << "Quantos numeros voce vai digitar? ";
     cin >> n;
 
     int vet[n];
 
-    for(i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         cout << "Digite um numero: ";
         cin >> vet[i];
@@ -19,7 +19,7 @@ int main()
 
     cout << "NUMEROS NEGATIVOS: " << endl;
 
-    for(i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         if(vet[i] < 0)
         {
