@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <iomanip>
 
 using namespace std;
@@ -12,9 +11,9 @@ int main()
     cout << "Quantas pessoas serao digitadas? ";
     cin >> n;
 
-    vector<string> nomes(n);
-    vector<int> idades(n);
-    vector<double> alturas(n);
+    string nomes[n];
+    int idades[n];
+    double alturas[n];
 
     for(i = 0; i < n; i++)
     {
